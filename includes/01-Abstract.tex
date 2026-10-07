@@ -1,0 +1,7 @@
+\begin{abstract}
+This paper examines CVaR-based portfolio optimisation for a Malta-accessible UCITS ETF basket, focusing on whether a simple downside-risk optimisation framework can improve risk control compared with Equal-Weight and Minimum-Variance benchmarks. The aim is to evaluate the three strategies under identical long-only and fully invested conditions using historical ETF market-price data converted to EUR. The proposed solution implements a Python-based rolling out-of-sample backtest with a 252-trading-day estimation window, 21-trading-day rebalancing, and performance evaluation using CAGR, volatility, Sharpe ratio, Sortino ratio, VaR, CVaR, and maximum drawdown. The results show that CVaR-95 achieved the lowest VaR and CVaR, but Equal-Weight delivered the strongest CAGR and Sharpe ratio, while Minimum-Variance achieved the lowest maximum drawdown; therefore, the hypothesis is only partially supported. The project was implemented using Python, Jupyter Notebook, pandas, NumPy, SciPy, CVXPY, and yfinance-based historical data, with rolling-window backtesting, long-only optimisation, and CVaR sensitivity analysis as the main techniques.
+\end{abstract}
+
+\begin{IEEEkeywords}
+CVaR, portfolio optimisation, UCITS ETFs, Equal-Weight, Minimum-Variance, rolling backtesting, Python.
+\end{IEEEkeywords}
